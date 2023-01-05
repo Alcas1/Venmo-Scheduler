@@ -11,4 +11,6 @@ func main() {
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s	", err)
 	}
+
+	fmt.Println(response)
 }
